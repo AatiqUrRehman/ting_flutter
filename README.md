@@ -1,6 +1,6 @@
 # Ting Flutter
 UI clone of React Native (NativeBase) Ting App, developed in flutter By Attique Ur Rehman
-credit goes to ting team. please consider having a star to this project.
+credit goes to ting team. please consider having a star ⭐ to this project.
 URL => https://market.nativebase.io/view/react-native-ting-app
 
 # Actual UI of the Ting App
