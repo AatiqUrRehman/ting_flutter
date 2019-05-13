@@ -9,7 +9,7 @@ class InboxScreen extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Container(
-              padding: EdgeInsets.only(left: 12),
+              padding: EdgeInsets.only(left: 12, right: 12),
               alignment: Alignment.topLeft,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -40,21 +40,23 @@ class InboxScreen extends StatelessWidget {
                     height: 14,
                   ),
                   Container(
-                    margin: EdgeInsets.only(left: 12, bottom: 12),
+                    margin: EdgeInsets.only(left: 8, bottom: 12),
                     width: MediaQuery.of(context).size.width * .90,
-                    height: 2,
-                    color: Colors.grey,
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
                   ),
                   buildMessageList(context, 3),
                   SizedBox(
                     height: 14,
                   ),
                   Container(
-                    margin: EdgeInsets.only(left: 12),
+                    margin: EdgeInsets.only(left: 8, bottom: 12),
                     width: MediaQuery.of(context).size.width * .90,
-                    height: 2,
-                    color: Colors.grey,
-                  )
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
+                  ),
                 ],
               )),
         ],
@@ -99,7 +101,7 @@ class InboxScreen extends StatelessWidget {
                     ),
                     Container(
                       margin: EdgeInsets.only(
-                          left: MediaQuery.of(context).size.width * 0.38),
+                          left: MediaQuery.of(context).size.width * 0.32),
                       child: Text(
                         '8 Nov 2018',
                         style: TextStyle(
@@ -112,18 +114,15 @@ class InboxScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
-                height: 0,
-              ),
               Container(
-                margin: EdgeInsets.only(left: 14),
+                margin: EdgeInsets.only(left: 14, top: 2),
                 child: Text(
                   'You have no unread messages',
                   style: TextStyle(
                       fontFamily: 'OpenSansRegular',
-                      fontSize: 17,
+                      fontSize: 16,
                       color: Colors.black,
-                      fontWeight: FontWeight.w400),
+                      fontWeight: FontWeight.w200),
                 ),
               ),
             ],

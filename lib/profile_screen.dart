@@ -60,7 +60,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 12,
+                    height: 10,
                   ),
                   listItem(context, 'Setting', Icons.settings),
                   line(context),
@@ -76,9 +76,10 @@ class ProfileScreen extends StatelessWidget {
 
   Container line(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width * 0.94,
-      height: 2,
-      color: Colors.grey,
+      width: MediaQuery.of(context).size.width * .94,
+      child: Divider(
+        color: Colors.grey,
+      ),
     );
   }
 
