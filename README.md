@@ -1,16 +1,14 @@
-# ting_flutter
+# Ting Flutter
+UI clone of React Native (NativeBase) Ting App, developed in flutter By Attique Ur Rehman
+credit goes to ting team. 
+# Show some ❤️ and star the repo to support the project
 
-A new Flutter project.
+URL => https://market.nativebase.io/view/react-native-ting-app
 
-## Getting Started
+# Actual UI of the Ting App
+![actual design ](https://github.com/AatiqUrRehman/ting_flutter/blob/master/assets/images/KyYGZc31QHAqkpFM.png)
 
-This project is a starting point for a Flutter application.
+# UI developed in Flutter
+![flutter design ](https://github.com/AatiqUrRehman/ting_flutter/blob/master/assets/images/merge_from_ofoct.jpg)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Thanks for checking out repo any kind of suggestion and improvement will be really appreciated, and i hope my work deserve atlease one ⭐
