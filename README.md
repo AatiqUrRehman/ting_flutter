@@ -11,4 +11,7 @@ URL => https://market.nativebase.io/view/react-native-ting-app
 # UI developed in Flutter
 ![flutter design ](https://github.com/AatiqUrRehman/ting_flutter/blob/master/assets/images/merge_from_ofoct.jpg)
 
+# Lokking for Flutter Developer? i'm offering my services on Fiverr please check :) 
+https://www.fiverr.com/appimator?public_mode=true
+
 Thanks for checking out repo any kind of suggestion and improvement will be really appreciated, and i hope my work deserve atlease one ⭐
